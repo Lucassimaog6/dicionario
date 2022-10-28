@@ -5,3 +5,15 @@
     box-sizing: border-box;
     font-family: Nunito, sans-serif;
 }
+body{
+    background-color: lightgreen;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        background-color: #fff;
+    }
+}

@@ -1,13 +1,29 @@
 .searchBar{
-    background-color: lightgrey;
-    padding: 1rem;
-    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 10rem;
+    gap: 2rem;
 }
 
 .searchBar input{
-    padding: 1rem;
-    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-size: 2rem;
     outline: none;
     border: none;
-    border-radius: .5rem;
+    border-bottom: 3px solid lightgrey;
+    padding: 5px;
+}
+
+button{
+    background: lightgreen;
+    border-radius: 1rem;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem;
+    outline: none;
+}
+
+@media screen and (max-width: 800px){
+    .searchBar{
+        display: flex;
+        flex-direction: column;
+    }
 }
