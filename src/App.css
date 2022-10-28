@@ -1,0 +1,38 @@
+.app{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.class{
+    font-size: 1.9rem;
+    background-color: lightgrey;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.meanings{
+    background-color: lightgrey;
+    max-width: 90vw;
+    padding: 1rem;
+    list-style: none;
+    border-radius: 1rem;
+}
+
+.meaning_item{
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid rgba(0,0,0,.2);
+    border-radius: 1rem;
+}

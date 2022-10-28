@@ -1,0 +1,13 @@
+.searchBar{
+    background-color: lightgrey;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.searchBar input{
+    padding: 1rem;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+}
